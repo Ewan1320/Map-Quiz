@@ -1,6 +1,4 @@
 let currentScore = 0;
-let mins = 0;
-let sec = 0;
 let currentGuess = "";
 let guessesToGo = 48;
 let wrongGuesses = [];
