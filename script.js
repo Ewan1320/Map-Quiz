@@ -68,10 +68,10 @@ function start(){
     }
     if(nations.length < 48){
         nations = ["Albania", "Andorra", "Austria", "Belarus", "Belgium", "Bosnia and Herzegovina", "Bulgaria", "Croatia", "Cyprus", "Czech Republic",
-        "Denmark", "Estonia", "Finland", "France", "Germany", "Greece", "Great Britain", "Hungary", "Iceland", "Italy",
-        "Kosovo", "Latvia", "Liechtenstein", "Lithuania", "Luxembourg", "Malta", "Moldova", "Monaco", "Montenegro", "Netherlands",
-        "North Macedonia", "Northern Ireland", "Norway", "Poland", "Portugal", "Republic of Ireland", "Romania", "Russia", "San Marino", "Serbia",
-        "Slovakia", "Slovenia", "Spain", "Sweden", "Switzerland", "Turkey", "Ukraine", "Vatican City"];
+            "Denmark", "Estonia", "Finland", "France", "Germany", "Greece", "Great Britain", "Hungary", "Iceland", "Italy",
+            "Kosovo", "Latvia", "Liechtenstein", "Lithuania", "Luxembourg", "Malta", "Moldova", "Monaco", "Montenegro", "Netherlands",
+            "North Macedonia", "Northern Ireland", "Norway", "Poland", "Portugal", "Republic of Ireland", "Romania", "Russia", "San Marino", "Serbia",
+            "Slovakia", "Slovenia", "Spain", "Sweden", "Switzerland", "Turkey", "Ukraine", "Vatican City"];
         completed = []
         currentScore = 0;
         guessesToGo = 48;
