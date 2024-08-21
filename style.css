@@ -13,8 +13,19 @@ body{
     border-top: solid;
     border-bottom: solid;
     border-width: 1px;
+}
 
-
+.button{
+    padding: 5px 9px;
+    font-size: 14px;
+    color: white;
+    border-radius: 4px;
+    border-style: none;
+    background-color: #257B51;
+}
+/* makes the buttons hovered by the cursor change background colour to show user selection.*/
+.button:hover{
+    background-color: #54c28d;
 }
 .header-logo{
     height: 50px;
@@ -78,6 +89,7 @@ body{
 }
 
 .banner{
+    position:relative;
     display: flex;
     text-align: center;
     margin: auto;
@@ -86,9 +98,37 @@ body{
     height: 40px;
     background-color: grey;
 }
+.score-board-left{
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    text-align: center;
+}
+.score-board-right{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    text-align: center;
+}
 .score-board{
     justify-content: center;
-    padding-left: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-top: 8px;
     text-align: center;
+}
+
+.finale{
+    position:fixed;
+    display: none;
+    margin: auto;
+    width: 50%;
+    left: 20%;
+    top: 20%;
+    padding: 30px 10px;
+    background-color: #B0DDF5;
+    border-color: white;
+    border-radius: 5px;
+    z-index: 2;
+    font-size: 25px;
 }
